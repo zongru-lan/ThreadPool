@@ -3,7 +3,7 @@
 #include <chrono>
 
 #include "ThreadPool.h"
-
+using namespace std;
 int main()
 {
     
@@ -22,8 +22,8 @@ int main()
     }
 
     for(auto && result: results)
-        std::cout << result.get() << ' ';
-    std::cout << std::endl;
-    
+        cout << result.get() << ' ';
+    cout << endl;
+
     return 0;
 }
