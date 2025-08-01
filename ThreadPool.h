@@ -10,6 +10,7 @@
 #include <future>
 #include <functional>
 #include <stdexcept>
+using namespace std;
 
 class ThreadPool {
 public:
